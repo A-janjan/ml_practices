@@ -1,1 +1,1 @@
-# ml_practices
+# Machine Learning Practices
