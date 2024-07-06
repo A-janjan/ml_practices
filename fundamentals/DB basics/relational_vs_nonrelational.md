@@ -106,3 +106,11 @@ Answer:
 
 ---
 
+## How do consistency models differ between relational and NoSQL databases?
+
+**Answer:** Relational databases typically follow strong consistency models with ACID properties. NoSQL databases often follow eventual consistency models to ensure availability and partition tolerance as per the CAP theorem.
+
+
+## Describe a use case where a graph database would be more appropriate than a relational database.
+
+**Answer:** A graph database is ideal for applications involving complex relationships and interconnected data, such as social networks, recommendation systems, and fraud detection.
