@@ -1,0 +1,10 @@
+stages:
+  train_model:
+    cmd: dvc.yaml python main.py
+    deps:
+    - data/raw.csv
+    - src/train.py
+    params:
+    - model_params
+    outs:
+    - models/model.pkl
