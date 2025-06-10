@@ -1,10 +1,13 @@
 stages:
   train_model:
-    cmd: dvc.yaml python main.py
+    cmd: python main.py
     deps:
-    - data/raw.csv
+    - data/california_housing.csv
     - src/train.py
     params:
     - model_params
     outs:
     - models/model.pkl
+    metrics:
+    - metrics.json:
+        cache: false
