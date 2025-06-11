@@ -1,0 +1,3 @@
+model_params:
+  fit_intercept: true
+  copy_X: true
